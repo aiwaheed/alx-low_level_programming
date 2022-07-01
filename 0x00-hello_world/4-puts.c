@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*main -Entry point
+/**
+ * printing a simple program using puts function
+ *
+ * main -Entry point
+ * 
  * Return: Always 0 (success)
  */
 int main(void)
