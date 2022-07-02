@@ -7,9 +7,11 @@
 *Decription: positive, zero and negative values
 *Return: zero for success
 */
+
 int main(void)
 {
 int n;
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
@@ -25,5 +27,6 @@ else
 {
 printf("%d is negative\n", n);
 }
+
 return (0);
 }
