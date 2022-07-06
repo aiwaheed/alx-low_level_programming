@@ -11,6 +11,7 @@ int i = 0;
 char text[] = "_putchar";
 
 while (text[i] != '\0')
+#endif
 {
 _putchar(text[i]);
 i++;
