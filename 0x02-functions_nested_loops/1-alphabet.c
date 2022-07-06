@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
-* main - check the code
-*
-* Return: Always 0.
+* print_alphabet -> prints the loercase alphabets
 */
 
-int main(void)
+void print_alphabet(void)
 {
+int j;
 
-print_alphabet();
-
-return (0);
+for(j = 'a'; j<= 'z'; j++)
+{
+_putchar(j);
+}
+_putchar('\n);
 }
